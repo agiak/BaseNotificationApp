@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">BaseNotificationApp</string>
+
+    <!-- Labels -->
+    <string name="label">MainActivity</string>
+    <string name="label_summary">Notification Summary</string>
+    <string name="label_create_notification">Create Notification</string>
+    <string name="label_channels">Available Channels</string>
+
+    <string-array name="notification_channels_ids">
+        <item>channel_general</item>
+        <item>channel_gossip</item>
+        <item>channel_sports</item>
+        <item>channel_finance</item>
+    </string-array>
+
+    <string-array name="notification_channels_names">
+        <item>General channel</item>
+        <item>Gossip Channel</item>
+        <item>Sports channel</item>
+        <item>Finance channel</item>
+    </string-array>
+
+    <string-array name="notification_priorities">
+        <item>Importance Default</item>
+        <item>Importance Low</item>
+        <item>Importance High</item>
+    </string-array>
+
+    <string-array name="notification_channels_descriptions">
+        <item>General channel contains general information</item>
+        <item>Gossip Channel contains information with the latest gossip news</item>
+        <item>Sports channel contains information for your favourite teams</item>
+        <item>Finance channel contains information of the global economy</item>
+    </string-array>
+
+    <!-- Summary screen -->
+    <string name="summary_mandatory_btn">Show notification</string>
+    <string name="summary_screen_title">Notification summary</string>
+    <string name="summary_sample_lbl">Notification sample</string>
+    <string name="summary_create_notification">Create notification</string>
+    <string name="summary_edit_notification">Edit notification</string>
+    <string name="summary_show_channels">Show channels</string>
+    <string name="summary_reset_btn">Reset</string>
+
+    <!-- Create notification screen-->
+    <string name="field_title">Notification title</string>
+    <string name="field_description">Notification description</string>
+    <string name="field_color">Color dex code</string>
+    <string name="apply_btn">Apply</string>
+    <string name="create_notification_screen_title">Create notification</string>
+
+    <!-- Channels screen -->
+    <string name="channels_screen_title">Available Channels</string>
+
+</resources>
